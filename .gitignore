@@ -1,0 +1,24 @@
+# Visual Studio state and local settings
+.vs/
+*.user
+*.suo
+
+# Generated build output (keep bundled dependency DLLs and libraries)
+build/
+x64/
+Debug/
+Release/
+*.obj
+*.exe
+*.pdb
+*.ilk
+*.idb
+*.tlog
+*.log
+
+# Local secrets and OS files
+.env
+.env.*
+!.env.example
+Thumbs.db
+.DS_Store
